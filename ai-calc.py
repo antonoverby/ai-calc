@@ -11,7 +11,7 @@ if 'basic' not in st.session_state:
 if 'appbas' not in st.session_state:
     st.session_state['appbas'] = 0
 if 'unsat' not in st.session_state:
-    st.session_state['unsat'] = 69
+    st.session_state['unsat'] = 0
    
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1: 
